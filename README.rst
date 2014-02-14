@@ -20,13 +20,13 @@ CKAN 2.2+
 Configuration
 =============
 
-Config options should be placed in main section of the CKAN config file.
+Config options should be placed in main section of the CKAN config file::
 
-ckanext.s3archive.access_key = <access_key>
-ckanext.s3archive.secret_key = <secret_key>
-ckanext.s3archive.bucket = <bucket>
+    ckanext.s3archive.access_key = <access_key>
+    ckanext.s3archive.secret_key = <secret_key>
+    ckanext.s3archive.bucket = <bucket>
 
-ckan.plugins = <current_plugins> s3archive
+    ckan.plugins = <current_plugins> s3archive
 
 
 Usage
