@@ -69,7 +69,6 @@ class s3archiveCommand(CkanCommand):
 
                 key_name = full_path[len(resource_path):]
                 for key in bucket.list(prefix=key_name.lstrip('/')):
-                    from nose.tools import set_trace; set_trace()
                     key.delete()
 
                 resource_id = key_name.replace('/', '')
