@@ -8,7 +8,7 @@ Installation
 
 To install this package, from your CKAN virtualenv, run the following from your CKAN base folder (e.g. ``pyenv/``)::
 
-  pip install -e git+https://github.com/okfn/ckanext-s3archive#egg=ckanext-s3archive
+  pip install -e git+https://github.com/ckan/ckanext-s3archive#egg=ckanext-s3archive
 
 Then activate it by setting ``ckan.plugins = s3archive`` in your main ``ini``-file.
 
